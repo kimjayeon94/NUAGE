@@ -120,7 +120,7 @@ p {
     left: 50%;
     transform: translateX(-50%);
     z-index: 11;
-    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
 .hd_top {
@@ -1799,7 +1799,7 @@ swiper-slide figure:hover .change {
         color: #000;
         width: 100%;
         height: 100%;
-        backdrop-filter: blur(5px);
+         -webkit-backdrop-filter: blur(5px);
 
         display: flex;
         justify-content: flex-end;
